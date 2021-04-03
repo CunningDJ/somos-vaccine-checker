@@ -1,0 +1,17 @@
+{
+  "name": "somos-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "somosChecker.js",
+  "scripts": {
+    "start": "node somosChecker.js"
+  },
+  "keywords": [],
+  "author": "David J. Cunningham <david@cunningdj.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jsdom": "^16.5.2",
+    "nodemailer": "^6.5.0"
+  }
+}
