@@ -3,7 +3,7 @@ This checks the SOMOS Vaccine Availability Endpoint to check for vaccine
 availability!
 
 **NOTE**: This is currently set up for emailing a gmail address.  You'll need
-to tweak `config.json` to have it send to another email provider.
+to tweak the `smtpHost` value in `config.json` to have it send to another email provider.
 
 ## Instructions
 1. Add `auth.json` with this content:
