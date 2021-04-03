@@ -14,4 +14,5 @@ to tweak `config.json` to have it send to another email provider.
 ```
 2. Edit `config.json` with your gmail address in the `senderEmail` value. 
 3. Run the checker with `npm start`.  It'll check the endpoint periodically,
-   and email you if there is availability.
+   and if there availability, it will log that on the console, and email you
+   (if I get around to implementing that part).
