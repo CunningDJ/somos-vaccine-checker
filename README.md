@@ -12,7 +12,11 @@ to tweak `config.json` to have it send to another email provider.
   "email": "[gmail key - set up in Gmail]"
 }
 ```
-2. Edit `config.json` with your gmail address in the `senderEmail` value. 
+2. Edit `config.json` with:
+  * Your gmail address in the `senderEmail` value.
+  * Your desired search zip in the `searchZip` value
+  * A unique portion of the place name in the 'searchPlaceName` value.  E.g.
+    'Brandeis' was used here to find the place name Brandeis High School.
 3. Run the checker with `npm start`.  It'll check the endpoint periodically,
    and if there availability, it will log that on the console, and email you
    (if I get around to implementing that part).

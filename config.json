@@ -1,5 +1,7 @@
 {
   "intervalMinutes": 5,
   "senderEmail": "YOUREMAIL@gmail.com",
-  "smtpHost": "smtp.gmail.com"
+  "smtpHost": "smtp.gmail.com",
+  "searchZip": 10024,
+  "searchPlaceName": "Brandeis"
 }

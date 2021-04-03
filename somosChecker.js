@@ -12,10 +12,10 @@ var senderEmail = config.senderEmail.replace('@', '%40');
 var mailTransport = nodemailer.createTransport(`smtps://${senderEmail}:${auth.email}@${config.smtpHost}`);
 
 function main() {
-    const SEARCH_ZIP_CODE = 10024;
+    const SEARCH_ZIP_CODE = config.searchZip;
     const FIVE_DAY_INCREMENTS = 3;
     
-    const PLACE_NAME_SEARCH_TEXT = 'Brandeis';
+    const PLACE_NAME_SEARCH_TEXT = config.searchPlaceName;
 
     const now = new Date();
 
